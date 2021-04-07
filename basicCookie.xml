@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <extension type="plugin" version="1.0" group="privacy">
-        <name>PLG_PRIVACY_BASIC_COOKIE</name>
+    <extension type="plugin" version="1.0" group="system">
+        <name>PLG_SYSTEM_BASIC_COOKIE</name>
         <creationDate>April 2021</creationDate>
         <author>Rishabh Ranjan Jha</author>
         <version>1.0</version>
-        <description>PLG_PRIVACY_BASIC_COOKIE_XML_DESCRIPTION</description>
+        <description>PLG_SYSTEM_BASIC_COOKIE_XML_DESCRIPTION</description>
 
         <files>
             <filename plugin="basicCookie">basicCookie.php</filename>
         </files>
 
         <languages folder="administrator/language">
-            <language tag="en-GB">language/en-GB/en-GB.plg_privacy_basicCookie.ini</language>
-            <language tag="en-GB">language/en-GB/en-GB.plg_privacy_basicCookie.sys.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.plg_system_basicCookie.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.plg_system_basicCookie.sys.ini</language>
         </languages>
 
          <config>
@@ -22,10 +22,9 @@
                         name="cookie_bar_text"
                         type="textarea"
                         rows="5"
-                        label="PLG_PRIVACY_BASIC_COOKIE_BAR_LABEL"
-                        description="PLG_PRIVACY_BASIC_COOKIE_BAR_DESCRIPTION"
+                        label="PLG_SYSTEM_BASIC_COOKIE_BAR_LABEL"
+                        description="PLG_SYSTEM_BASIC_COOKIE_BAR_DESCRIPTION"
                         default="This website uses cookies."
-
                     />
                 </fieldset>
             </fields>

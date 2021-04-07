@@ -27,7 +27,7 @@ use Joomla\CMS\User\UserHelper;
  * @note   Code based on http://jaspan.com/improved_persistent_login_cookie_best_practice
  *         and http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/
  */
-class PlgPrivacyBasicCookie extends JPlugin
+class PlgSystemBasicCookie extends CMSPlugin
 {
 	/**
 	 * Application object
@@ -35,7 +35,7 @@ class PlgPrivacyBasicCookie extends JPlugin
 	 * @var    \Joomla\CMS\Application\CMSApplication
 	 * @since  3.2
 	 */
-	protected $app;
+	// protected $app;
 
 	/**
 	 * Database object
@@ -43,7 +43,7 @@ class PlgPrivacyBasicCookie extends JPlugin
 	 * @var    \Joomla\Database\DatabaseDriver
 	 * @since  3.2
 	 */
-	protected $db;
+	// protected $db;
 
 	/**
 	 * Reports the privacy related capabilities for this plugin to site administrators.
@@ -52,20 +52,23 @@ class PlgPrivacyBasicCookie extends JPlugin
 	 *
 	 * @since   3.9.0
 	 */
-	  public function sss(){
-			PluginHelper::importPlugin('system');
-$app = Factory::getApplication();
-$app->triggerEvent('onAfterRender', ()=>{
-	$t=time()+3600;
-	$this->app->input->cookie->set('rishabh','value',$t);
-});
-			return true;
-		}
+// 	  public function sss(){
+// 			PluginHelper::importPlugin('system');
+// $app = Factory::getApplication();
+// $app->triggerEvent('onAfterRender', ()=>{
+// 	$t=time()+3600;
+// 	$this->app->input->cookie->set('rishabh','value',$t);
+// });
+// 			return true;
+// 		}
 	 // {
 	 // 	// code...
 	 // }
 	 // 	public function onAfterRender()
-			// public function onAfterRender(){
+			public function onAfterRender(){
+$this->app->input->cookie->set('rishabh','chhotu');
+
+            }
 // $app = Factory::getApplication();
 // $val=$app->input->cookie->get('rishabh',null);
 //
