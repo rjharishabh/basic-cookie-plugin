@@ -1,2 +1,2 @@
-# basic-cookie-plugin
+# Basic-Cookie-Plugin
 Basic Cookie plugin for GSoC Programming Task

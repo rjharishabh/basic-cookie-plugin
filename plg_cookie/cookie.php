@@ -52,7 +52,7 @@ class PlgSystemCookie extends CMSPlugin
 				if (!isset($_COOKIE['rishabh_ranjan_jha'])) {
 
 						$dt = new Date('now');
-						$this->app->input->cookie->set('rishabh_ranjan_jha',$dt->format('Y-m-d__H-i-s-u'));
+						$this->app->input->cookie->set('rishabh_ranjan_jha',$dt->format('Y-m-d__H-i-s-u'),0,$this->app->get('cookie_path', '/'));
 
 				}
 
