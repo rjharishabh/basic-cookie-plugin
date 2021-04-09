@@ -8,6 +8,8 @@
 
         <files>
             <filename plugin="cookie">cookie.php</filename>
+            <filename>styles.css</filename>
+            <filename>script.js</filename>
         </files>
 
         <languages folder="administrator/language">
@@ -18,14 +20,22 @@
          <config>
             <fields name="params">
                 <fieldset name="basic">
+                  <field
+                      name="cookie_bar_title"
+                      type="text"
+                      label="PLG_SYSTEM_COOKIE_BAR_TITLE_LABEL"
+                      description="PLG_SYSTEM_COOKIE_BAR_TITLE_DESC"
+                      default="Cookie Policy"
+                  />
                     <field
                         name="cookie_bar_text"
                         type="textarea"
                         rows="5"
-                        label="PLG_SYSTEM_COOKIE_BAR_LABEL"
-                        description="PLG_SYSTEM_COOKIE_BAR_DESCRIPTION"
-                        default="This website uses cookies."
+                        label="PLG_SYSTEM_COOKIE_BAR_TEXT_LABEL"
+                        description="PLG_SYSTEM_COOKIE_BAR_TEXT_DESC"
+                        default="We use cookies to ensure that we give you the best experience on our website."
                     />
+                    
                 </fieldset>
             </fields>
         </config>

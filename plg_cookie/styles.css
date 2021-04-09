@@ -1,0 +1,20 @@
+#cookie{
+    position:fixed;
+    z-index: 100;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width:30%;
+    height:fit-content;
+    margin: auto auto;
+    background-color: #5abfdd;
+    border-radius:20px;
+  }
+  #text{
+    padding-left:10px;
+  }
+  #close{
+    float:right;
+  }
+  
