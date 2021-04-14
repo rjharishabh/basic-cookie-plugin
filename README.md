@@ -1,5 +1,5 @@
 # Basic-Cookie-Plugin
 Basic Cookie Plugin for GSoC Programming Task
 
-It sets the cookie with value as date and time.
-Display the result in a pop-up.
+1. It sets the cookie with value as date and time.
+2. Display the result in a pop-up.
