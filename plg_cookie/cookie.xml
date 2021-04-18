@@ -8,8 +8,8 @@
 
         <files>
             <filename plugin="cookie">cookie.php</filename>
-            <filename>styles.css</filename>
-            <filename>script.js</filename>
+            <filename>css/styles.css</filename>
+            <filename>js/script.js</filename>
         </files>
 
         <languages folder="administrator/language">
@@ -35,9 +35,8 @@
                         description="PLG_SYSTEM_COOKIE_BAR_TEXT_DESC"
                         default="We use cookies to ensure that we give you the best experience on our website."
                     />
-                    
+
                 </fieldset>
             </fields>
         </config>
     </extension>
-
