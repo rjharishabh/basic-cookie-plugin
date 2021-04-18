@@ -43,6 +43,11 @@ class PlgSystemCookie extends CMSPlugin
 
 		public function onAfterRender(){
 
+				if ($this->app->isClient('administrator'))
+				{
+					return;
+				}
+
 			/**
 			 * check the cookie
 			 * if not set then set the cookies
