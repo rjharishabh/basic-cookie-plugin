@@ -13,8 +13,8 @@ Basic Cookie Plugin for GSoC Programming Task
         └── script.js
     ├── language
         └── en-GB
-           └── en-GB.plg_system_cookie.ini
-           └── en-GB.plg_system_cookie.sys.ini
+            └── en-GB.plg_system_cookie.ini
+            └── en-GB.plg_system_cookie.sys.ini
     └── cookie.php
     └── cookie.xml
 
