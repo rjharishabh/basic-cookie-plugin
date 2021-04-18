@@ -33,11 +33,11 @@ class PlgSystemCookie extends CMSPlugin
 
 			//		add Script
 
-						$document->addScript(JUri::root() . "plugins/system/cookie/script.js", $opt, $attr);
+						$document->addScript(JUri::root() . "plugins/system/cookie/js/script.js", $opt, $attr);
 
 			//		add Stylesheet
 
-						$document->addStyleSheet(JUri::root() . "plugins/system/cookie/styles.css", $opt);
+						$document->addStyleSheet(JUri::root() . "plugins/system/cookie/css/styles.css", $opt);
 
 }
 
@@ -53,7 +53,6 @@ class PlgSystemCookie extends CMSPlugin
 
 						$dt = new Date('now');
 						$this->app->input->cookie->set('rishabh_ranjan_jha',$dt->format('Y-m-d__H-i-s-u'),0,$this->app->get('cookie_path', '/'));
-
 				}
 
 				else {
@@ -64,6 +63,7 @@ class PlgSystemCookie extends CMSPlugin
 				//		assemble the HTML
 
 						$t='<div id="cookie"  class="alert alert-dismissible fade show" role="alert">';
+						$t.='<button type="button" class="btn-close btn-sm btn-close-white" id="close" aria-label="Close"></button>';
 						$t.='<div id="text">';
 						$t.='<div class="row">';
 						$t.='<h3 class="text-white">'.htmlspecialchars($title).'</h3>';
@@ -72,7 +72,7 @@ class PlgSystemCookie extends CMSPlugin
 						$t.='<p class="text-white">Cookie Value = '.$_COOKIE['rishabh_ranjan_jha'].'</p>';
 						$t.='<p class="text-white">'.htmlspecialchars($txt).'</p>';
 						$t.='</div>';
-						$t.='<button" id="close" class="btn btn-success">Accept Cookies</button>';
+						$t.='<button id="accept" class="btn btn-success">Accept Cookies</button>';
 						$t.='</div>';
 						$t.='</div></div>';
 
