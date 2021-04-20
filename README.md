@@ -8,9 +8,9 @@ Basic Cookie Plugin for GSoC Programming Task
 ## Folder Structure
 
     ├── css
-        └── styles.js
+        └── cookie.css
     ├── js
-        └── script.js
+        └── cookie.js
     ├── language
         └── en-GB
             └── en-GB.plg_system_cookie.ini

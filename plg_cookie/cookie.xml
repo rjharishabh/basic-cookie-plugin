@@ -8,9 +8,12 @@
 
         <files>
             <filename plugin="cookie">cookie.php</filename>
-            <filename>css/styles.css</filename>
-            <filename>js/script.js</filename>
         </files>
+
+        <media folder="media" destination="plg_system_cookie">
+        		<folder>css</folder>
+        		<folder>js</folder>
+        </media>
 
         <languages folder="administrator/language">
             <language tag="en-GB">language/en-GB/en-GB.plg_system_cookie.ini</language>
