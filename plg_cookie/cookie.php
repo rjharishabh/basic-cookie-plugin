@@ -33,11 +33,11 @@ class PlgSystemCookie extends CMSPlugin
 
 			//		add Script
 
-						$document->addScript(JUri::root() . "plugins/system/cookie/js/script.js", $opt, $attr);
+						$document->addScript(JUri::root() . "media/plg_system_cookie/js/cookie.js", $opt, $attr);
 
 			//		add Stylesheet
 
-						$document->addStyleSheet(JUri::root() . "plugins/system/cookie/css/styles.css", $opt);
+						$document->addStyleSheet(JUri::root() . "media/plg_system_cookie/css/cookie.css", $opt);
 
 }
 
