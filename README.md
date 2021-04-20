@@ -2,7 +2,7 @@
 Basic Cookie Plugin for GSoC Programming Task
 <ol>
 <li> It sets the cookie with value as date and time.
-<li> Display the result in a pop-up with
+<li> Display the result in a pop-up with cookie consent text.
 </ol>
 
 ## Folder Structure
