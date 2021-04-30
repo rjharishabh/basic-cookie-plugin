@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <extension type="plugin" version="1.0" method="upgrade" group="system">
+    <extension type="plugin" version="4.0" method="upgrade" group="system">
         <name>PLG_SYSTEM_COOKIE</name>
         <creationDate>April 2021</creationDate>
         <author>Rishabh Ranjan Jha</author>
